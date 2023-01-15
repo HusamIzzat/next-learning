@@ -1,9 +1,19 @@
+// {
+//   "compilerOption":{
+//       "baseUrl": ".",
+//       "paths":{
+//           "@/components/*":["components/*"],
+//           "@/styles/*":["styles/*"] 
+//       }
+//   }
+// }
+
 {
-  "compilerOption":{
-      "baseUrl": "",
-      "paths":{
-          "@/components/*":["components/*"],
-          "@/styles/*":["styles/*"]
-      }
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*":["components/*"],
+      "@/styles/*":["styles/*"]
+    }
   }
 }
